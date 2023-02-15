@@ -27,7 +27,7 @@ export default function Main() {
                         <NewStatus />
                     </Item>
                 </Box>
-                {[...new Array(1)].map(() => {
+                {[...new Array(5)].map(() => {
                     return (<>
                         <Item>
                             <Status />
