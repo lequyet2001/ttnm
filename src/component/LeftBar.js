@@ -1,10 +1,11 @@
-import { Box, Button, DialogContent, DialogTitle, Typography } from '@mui/material'
+import { Box, Button, DialogContent, DialogTitle, Typography,Link } from '@mui/material'
 import { React, } from 'react'
 import ClassOutlinedIcon from '@mui/icons-material/ClassOutlined';
 import VideoCallOutlinedIcon from '@mui/icons-material/VideoCallOutlined';
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import ScrollBox from './ScrollBox';
+
 
 
 const style = {
@@ -31,14 +32,21 @@ const style = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-       
+
     }
 }
 
 
+
+
+
+
 export default function LeftBar() {
+
+
+
     return (
-        <Box sx={{ backgroundColor:'white'}}>
+        <Box sx={{ backgroundColor: 'white' }}>             
             <DialogTitle>
                 List classes
                 <Button>
@@ -47,11 +55,17 @@ export default function LeftBar() {
             </DialogTitle>
             <DialogContent >
                 <ScrollBox hide={false} sx={{ maxHeight: 250 }}>
+                    
                     {
                         [...new Array(10)].map(() => {
                             return (
                                 <>
-                                    <Button sx={style.button}>
+                                    
+                                    <Button 
+                                    // underline='none'
+                                    href='https://mui.com/material-ui/react-link/'
+                                    // component='button'
+                                     sx={style.button}>
                                         <ClassOutlinedIcon />
                                         <Typography sx={style.type}>
                                             List Class
@@ -78,13 +92,13 @@ export default function LeftBar() {
             <DialogContent >
                 <ScrollBox hide={false} sx={{ maxHeight: 250 }}>
                     {
-                        [...new Array(10)].map(() => {
+                        [...new Array(100)].map(() => {
                             return (
                                 <>
                                     <Button sx={style.button}>
                                         <ClassOutlinedIcon />
                                         <Typography sx={style.type}>
-                                            List Class
+                                            List Friends
                                         </Typography>
                                         <NotificationsIcon sx={{ color: 'red' }} />
                                     </Button>

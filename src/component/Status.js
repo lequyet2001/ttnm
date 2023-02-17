@@ -121,7 +121,6 @@ export default function Status() {
                             <ListItem>
                                 <ListItemText primary="3M Chia sẻ" sx={{ width: '100px' }} />
                             </ListItem>
-
                         </List>
                     </Grid>
                 </Grid>
