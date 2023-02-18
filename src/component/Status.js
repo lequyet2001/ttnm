@@ -1,4 +1,4 @@
-import { Grid, Avatar, Typography, Box, IconButton, List, ListItem, ListItemIcon, ListItemText, Button } from '@mui/material'
+import { Grid, Avatar, Typography, Box, IconButton, List, ListItem, ListItemIcon, ListItemText, Button, Link } from '@mui/material'
 import React from 'react'
 import ClearIcon from '@mui/icons-material/Clear';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
@@ -33,7 +33,12 @@ export default function Status() {
                 <Grid item container xs={1}>
                     <Grid item xs={12}>
                         <Typography variant='body2' color='black'>
+                            <Link
+                                href='/persion'
+                                underline='hover'
+                            >
                             Lê Quyết
+                            </Link>
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>

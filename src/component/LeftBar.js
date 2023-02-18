@@ -63,7 +63,7 @@ export default function LeftBar() {
                                     
                                     <Button 
                                     // underline='none'
-                                    href='https://mui.com/material-ui/react-link/'
+                                    href='http://localhost:3000/class'
                                     // component='button'
                                      sx={style.button}>
                                         <ClassOutlinedIcon />
@@ -95,7 +95,7 @@ export default function LeftBar() {
                         [...new Array(100)].map(() => {
                             return (
                                 <>
-                                    <Button sx={style.button}>
+                                    <Button href='http://localhost:3000/persion' sx={style.button}>
                                         <ClassOutlinedIcon />
                                         <Typography sx={style.type}>
                                             List Friends

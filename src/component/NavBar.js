@@ -65,7 +65,7 @@ export default function NavBar() {
         >
             <Grid item xs={1} sx={{ marginLeft: '20px' }} >
 
-                <Button sx={{ backgroundColor: 'white', left: '15px' }} >
+                <Button  href='http://localhost:3000/' sx={{ backgroundColor: 'white', left: '15px' }} >
                     Logo
                 </Button>
 

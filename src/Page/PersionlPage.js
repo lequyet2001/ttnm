@@ -10,8 +10,11 @@ import Status from '../component/Status';
 
 export default function PersionlPage() {
     return (
-        <Box>
-            <NavBar />
+        <Box >
+            <Box sx={{ paddingBottom: '10px' }}>
+                <NavBar />
+
+            </Box>
             <ScrollBox sx={{ maxHeight: 700 }}>
                 <CoverImageAndAvata />
                 <Box padding={4}>
@@ -28,7 +31,7 @@ export default function PersionlPage() {
 
                             <ScrollBox hide={true} sx={{
                                 maxHeight: 680,
-                                width:'150%'
+                                width: '150%'
                                 // backgroundColor: 'pink'
                             }}>
                                 <Box sx={{
