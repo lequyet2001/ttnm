@@ -4,8 +4,8 @@ import React from 'react'
 import CustomTextField from './CustomTextField'
 // import { Item } from './NavBar'
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
-
-
+import AttachFileIcon from '@mui/icons-material/AttachFile';
+import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 
 
 
@@ -43,12 +43,12 @@ export default function NewStatus() {
                                         <ListItemText primary="Camera" />                            
                                 </ListItemButton>
                                 <ListItemButton>
-                                    <CameraAltIcon sx={{ paddingRight: '10px' }} />
-                                    <ListItemText primary="Camera" />
+                                    <AddPhotoAlternateIcon sx={{ paddingRight: '10px' }} />
+                                    <ListItemText primary="Photo" />
                                 </ListItemButton>
                                 <ListItemButton>
-                                    <CameraAltIcon sx={{ paddingRight: '10px' }} />
-                                    <ListItemText primary="Camera" />
+                                    <AttachFileIcon sx={{ paddingRight: '10px' }} />
+                                    <ListItemText primary="File" />
                                 </ListItemButton>
                             </ListItem>
                         </List>

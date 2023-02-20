@@ -37,14 +37,17 @@ export default function Status() {
                                 href='/persion'
                                 underline='hover'
                             >
-                            Lê Quyết
+                                Lê Quyết
                             </Link>
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant='caption'>
-                            1 Giờ
-                        </Typography>
+                        <Box  onMouseEnter={(e)=>{return <p>asdas</p>}} sx={{'&:hover':{color:'black'}}}>
+
+                            <Typography  >
+                                1 Giờ
+                            </Typography>
+                        </Box>
                     </Grid>
                 </Grid>
                 <Grid item xs={10}

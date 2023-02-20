@@ -20,7 +20,6 @@ export default function PageClass() {
       <Box sx={{}}>
         <Box sx={{ paddingBottom: '10px' }} >
           <Item>
-
             <NavBar />
           </Item>
         </Box>
