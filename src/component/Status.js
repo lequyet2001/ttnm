@@ -21,10 +21,12 @@ export default function Status() {
             backgroundColor: 'white',
             height: 'auto',
             width: '1000px',
+            // padding:'10px'
 
         }}>
             <Grid container sx='repead(3,1fr)'
                 padding='20px'
+                // margin={1}
 
             >
                 <Grid item xs='1fr' sx={{ paddingRight: '5px' }}>

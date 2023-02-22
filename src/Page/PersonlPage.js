@@ -9,6 +9,9 @@ import LeftBar from '../component/LeftBar';
 import Status from '../component/Status';
 
 export default function PersionlPage() {
+
+    
+
     return (
         <Box >
             <Box sx={{ paddingBottom: '10px' }}>
@@ -60,6 +63,7 @@ export default function PersionlPage() {
                     </Grid>
                 </Box>
             </ScrollBox>
+           
         </Box>
     )
 }

@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Grid, Tooltip, IconButton, Menu, MenuItem, Typography } from '@mui/material'
+import { Avatar, Box, Button, Grid, Tooltip, IconButton, Menu, MenuItem, Typography, Link } from '@mui/material'
 import React, { useState } from 'react';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
@@ -37,7 +37,7 @@ export const Item = styled(Paper)(({ theme, color, boderRadius, left }) => ({
     backgroundColor: color/*theme.palette.mode === 'dark' ? '#1A2027' : '#fff'*/,
     ...theme.typography.body2,
     padding: theme.spacing(1),
-    // paddingLeft:'20px',
+    // paddingLeft:'10px',
     textAlign: 'flex-start',
     borderRadius: boderRadius,
     color: theme.palette.text.secondary,
@@ -107,7 +107,12 @@ export default function NavBar() {
                     >
                         {settings.map((setting) => (
                             <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                <Typography textAlign="center">{setting}</Typography>
+                                <Typography textAlign="center">
+                                    {
+                                        setting==='Logout'? <Link href='/login'  >{setting}</Link>:setting
+                                    }
+                               
+                                </Typography>
                             </MenuItem>
                         ))}
                     </Menu>

@@ -29,9 +29,12 @@ export default function Main() {
                 </Box>
                 {[...new Array(5)].map(() => {
                     return (<>
+                    <Box margin={1}>
+
                         <Item>
                             <Status />
                         </Item>
+                    </Box>
                     </>)
                 })}
             </Box>

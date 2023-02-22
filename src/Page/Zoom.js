@@ -271,9 +271,9 @@ export default function Zoom() {
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose}>Disagree</Button>
+                    <Button onClick={handleClose}>Không</Button>
                     <Button onClick={handleClose} href='http://localhost:3000/class' autoFocus>
-                        Agree
+                        Có
                     </Button>
                 </DialogActions>
             </Dialog>

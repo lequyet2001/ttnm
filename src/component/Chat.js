@@ -1,22 +1,33 @@
-import { Avatar, Box, Button, Grid, Link, TextField, Typography, styled, IconButton, InputBase } from '@mui/material'
+import { Avatar, Box, Grid, Link, Typography, IconButton, InputBase } from '@mui/material'
 import React from 'react'
-import CustomTextField from './CustomTextField'
+
 // import { Item } from './NavBar'
 import SendIcon from '@mui/icons-material/Send';
 
 
 
-export default function Chat(props) {
+export default function Chat({isHidden,index}) {
 
     // const classes=useStyles();
     return (
         <>
-            <Box sx={{
-                height: '353px',
+            <Box  sx={{
+                // height: '353px',
                 width: '250px',
-                borderRadius: '10px',
+                borderRadius: '10px 10px 0px 0px ',
                 // backgroundColor: 'green',
-                border: '1px black ouset'
+                border: '1px black ouset',
+                display: isHidden ? 'none' : 'block',
+                position: 'absolute',
+                top: '440px',
+                left: `${1250-250*index -5*index}px`,
+                // width: '200px',
+                // height: '200px',
+                backgroundColor: 'grey',
+                color: 'white',
+                // paddingLeft: '5px',
+                zIndex:'999999',
+                // border:'1px solid grey'
             }}>
                 <Grid container >
                     <Grid item xs={12} sx={{
@@ -50,15 +61,15 @@ export default function Chat(props) {
                     >as</Grid>
                     <Grid item xs={12}
                         sx={{
-                            borderRadius: ' 0px 0px 10px 10px',
+                            // borderRadius: ' 0px 0px 10px 10px',
                             // backgroundColor: '#ffff01',
                             height: '50px',
-                            border:'1px solid black'
+                            border: '1px solid black'
                         }}
                     >
-                        <Box sx={{ display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
+                        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
 
-                            <InputBase sx={{ ml: 1, flex: 1 }}/>
+                            <InputBase sx={{ ml: 1, flex: 1 }} />
                             <IconButton color="primary">
                                 <SendIcon color='blue' />
                             </IconButton>

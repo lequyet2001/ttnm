@@ -36,7 +36,6 @@ export default function PageClass() {
             </Item>
           </Grid>
           <Grid item xs={1}>
-
           </Grid>
         </Grid>
       </Box>

@@ -6,6 +6,7 @@ import PersionlPage from "../Page/PersonlPage";
 import ErrorPage from "../Page/ErrorPage";
 import Chat from "../component/Chat";
 import Zoom from "../Page/Zoom";
+import Login from "../Page/Login";
 // import Home from "../page/Home";
 // import Login from "../page/Login";
 // import ProtectedRouter from "./ProtectedRouter";
@@ -21,6 +22,7 @@ export default createBrowserRouter([
         element:<HomePage/>,
         errorElement:<ErrorPage/>,
         path:'/' || '/home',
+      
     },
     {
         element:<PageClass/>,
@@ -41,5 +43,10 @@ export default createBrowserRouter([
         element:<Zoom/>,
         errorElement:<ErrorPage/>,
         path:'/zoom'
+    },
+    {
+        element:<Login/>,
+        errorElement:<ErrorPage/>,
+        path:'/login'
     }
 ])
