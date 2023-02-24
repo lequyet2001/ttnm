@@ -8,7 +8,6 @@ import SendIcon from '@mui/icons-material/Send';
 
 export default function Chat({isHidden,index}) {
 
-    // const classes=useStyles();
     return (
         <>
             <Box  sx={{

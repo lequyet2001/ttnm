@@ -50,7 +50,7 @@ export default function LeftBarPageClass(props) {
                                             props.onSendIndex(index)
                                             setData(index)
                                         }}
-                                        label="Item One"
+                                        label={`item ${index}`}
                                         {...a11yProps(index)} />
                                 </>)
                             })
