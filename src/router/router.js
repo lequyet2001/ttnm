@@ -1,4 +1,4 @@
-import { createBrowserRouter, Outlet } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../Page/HomePage";
 import PageClass from "../Page/PageClass";
 import PersionlPage from "../Page/PersonlPage";

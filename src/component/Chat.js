@@ -45,7 +45,7 @@ export default function Chat({isHidden,index}) {
                         <Box >
                             <Typography variant='a' color='black'>
                                 <Link href='/persion' color='black' sx={{ marginLeft: '10px' }}
-                                    underline='hover' src='http:localhost:3000/persion'>Tiến dũng</Link>
+                                    underline='hover' src='/persion'>Tiến dũng</Link>
                             </Typography>
                         </Box>
 

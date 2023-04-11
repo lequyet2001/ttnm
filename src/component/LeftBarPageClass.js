@@ -1,5 +1,5 @@
 
-import { Box, Tab, Tabs, Typography } from '@mui/material'
+import { Box, Tab, Tabs } from '@mui/material'
 import React, { useState } from 'react'
 
 import ScrollBox from './ScrollBox';
