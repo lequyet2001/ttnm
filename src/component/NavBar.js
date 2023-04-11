@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import CustomTextField from './CustomTextField';
-import Stack from '@mui/material/Stack';
+
 import Autocomplete from '@mui/material/Autocomplete';
 
 const ListFriend = [
@@ -65,8 +65,10 @@ export default function NavBar() {
         >
             <Grid item xs={1} sx={{ marginLeft: '20px' }} >
 
-                <Button  href='http://localhost:3000/' sx={{ backgroundColor: 'white', left: '15px' }} >
+                <Button   sx={{ backgroundColor: 'white', left: '15px' }} >
+                    <Link href='/'> 
                     Logo
+                    </Link>
                 </Button>
 
             </Grid>
@@ -86,7 +88,7 @@ export default function NavBar() {
                     <Tooltip title="Open settings">
                         <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, left: '45px' }}>
                             {/* <Avatar alt="Remy Sharp" src="/src/images/avata.png" /> */}
-                            <Avatar sx={{ width: 55, height: 55 }}>Q</Avatar>
+                            <Avatar sx={{ width: 55, height: 55 }}>K</Avatar>
                         </IconButton>
                     </Tooltip>
                     <Menu

@@ -30,7 +30,7 @@ export default function Status() {
 
             >
                 <Grid item xs='1fr' sx={{ paddingRight: '5px' }}>
-                    <Avatar sx={{ width: 55, height: 55 }}>Q</Avatar>
+                    <Avatar sx={{ width: 55, height: 55 }}>K</Avatar>
                 </Grid>
                 <Grid item container xs={1}>
                     <Grid item xs={12}>
@@ -39,7 +39,7 @@ export default function Status() {
                                 href='/persion'
                                 underline='hover'
                             >
-                                Lê Quyết
+                                Lê Kiên
                             </Link>
                         </Typography>
                     </Grid>
@@ -62,7 +62,7 @@ export default function Status() {
                 >
                     <IconButton aria-label="delete" size='lage'
                         sx={{
-                            left: '50px',
+                            left: '40px',
                             borderRadius: '10px',
                             paddingLeft: '10px'
                             //  backgroundColor:'green',
@@ -78,7 +78,7 @@ export default function Status() {
                     </IconButton>
                     <IconButton aria-label="delete" size='lage'
                         sx={{
-                            left: '50px',
+                            left: '40px',
                             borderRadius: '10px',
                             //  backgroundColor:'green',
 
@@ -94,7 +94,7 @@ export default function Status() {
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant='body2' color='black'>
-                        ́8 năm ra trường
+                       
                         <br />
                         <br />
                     </Typography>
@@ -102,7 +102,7 @@ export default function Status() {
                         style={{ width: 950, height: 600, }}
 
                         alt='my avata'
-                        src='https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/326472253_2386641358161093_7837015267632208779_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=C5qXz1KLO-kAX-boOCV&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAhkW7ZzXpUmNlJmwkeygTmY5hjIsZ-45EELCUfdAxsJg&oe=63F1B0F5'
+                        src='https://znews-photo.zingcdn.me/w1920/Uploaded/qhj_yvobvhfwbv/2018_07_18/Nguyen_Huy_Binh1.jpg'
                     />
                 </Grid>
                 <Grid item container xs={12}>
@@ -163,6 +163,7 @@ export default function Status() {
                     </Box>
                 </Grid>
             </Grid>
+            
 
 
 

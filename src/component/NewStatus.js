@@ -27,9 +27,9 @@ export default function NewStatus() {
                         }}>
                             <Box sx={{ paddingRight: '10px' }}>
 
-                                <Avatar sx={{ width: 55, height: 55 }}>Q</Avatar>
+                                <Avatar sx={{ width: 55, height: 55 }}>K</Avatar>
                             </Box>
-                            <CustomTextField id="fullWidth" variant="outlined" fullWidth label="Quyết, bạn đang nghĩ gì thế?" />
+                            <CustomTextField id="fullWidth" variant="outlined" fullWidth label="Kiên, bạn đang nghĩ gì thế?" />
                         </Box>
                     </Grid>
                     <Grid item xs={12}>

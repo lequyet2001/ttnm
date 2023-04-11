@@ -63,7 +63,7 @@ export default function CoverImageAndAvata() {
                             flexDirection: 'col'
 
                         }}>
-                            Lê Quyết
+                           Kieen
                         </Typography>
                         <Box>
                             <IconButton size='lage' sx={{

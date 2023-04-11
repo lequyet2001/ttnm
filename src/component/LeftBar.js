@@ -1,4 +1,4 @@
-import { Box, Button, DialogContent, DialogTitle, Typography, IconButton } from '@mui/material'
+import { Box, Button, DialogContent, DialogTitle, Typography, IconButton, Link } from '@mui/material'
 import { React, useState, } from 'react'
 import ClassOutlinedIcon from '@mui/icons-material/ClassOutlined';
 import VideoCallOutlinedIcon from '@mui/icons-material/VideoCallOutlined';
@@ -93,9 +93,10 @@ export default function LeftBar() {
                             return (
                                 <>
                                     <Box sx={{display:'flex', flexDirection:'row',alignItems:'center', justifyContent:'flex-start'}}>
+                                        <Link  href='/class'>
                                         <Button
                                             // underline='none'
-                                            href='http://localhost:3000/class'
+                                           
                                             // component='button'
                                             sx={style.button}>
                                             <ClassOutlinedIcon />
@@ -103,9 +104,12 @@ export default function LeftBar() {
                                                 {e.name}
                                             </Typography>
                                         </Button>
-                                        <IconButton href='http://localhost:3000/zoom' sx={{top:'-10px','&:hover':{color:'#2e89ff'}}}>
+                                                </Link>
+                                        <Link href='/zoom' >
+                                        <IconButton href='' sx={{top:'-10px','&:hover':{color:'#2e89ff'}}}>
                                             <VideoCallOutlinedIcon sx={{ color: 'red' }} />
                                         </IconButton>
+                                        </Link>
                                     </Box>
                                 </>
                             )
