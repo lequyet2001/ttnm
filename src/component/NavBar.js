@@ -44,7 +44,7 @@ export const Item = styled(Paper)(({ theme, color, boderRadius, left }) => ({
     left: left
 }));
 
-const settings = ['Profile', 'Account', 'Logout'];
+const settings = ['Profile', 'Account', ''];
 
 
 export default function NavBar() {
